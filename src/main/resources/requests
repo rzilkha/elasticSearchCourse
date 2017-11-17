@@ -1,0 +1,3 @@
+Put /movies - movie.json
+
+Get /movies/_mapping/movie

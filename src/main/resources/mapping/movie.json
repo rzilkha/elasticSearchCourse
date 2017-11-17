@@ -1,0 +1,14 @@
+{
+  "mappings":{
+    "movie": {
+      "_all": {
+        "enabled": false
+      },
+      "properties": {
+        "year": {
+          "type": "date"
+        }
+      }
+    }
+  }
+}
