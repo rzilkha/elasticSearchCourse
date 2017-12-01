@@ -1,0 +1,8 @@
+{
+  "query":{
+      "bool":{
+        "must":{"match_phrase":{"title":"Star Wars"}},
+          "filter":{"range":{"year":{"gt":1980}}}
+        }
+      }
+  }

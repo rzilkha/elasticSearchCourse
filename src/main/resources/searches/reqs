@@ -1,0 +1,1 @@
+http://localhost:9200/movies/movie/_search?q=+year:>1980+title:Star Wars
