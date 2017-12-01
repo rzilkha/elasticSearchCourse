@@ -1,0 +1,7 @@
+{
+  "query":{
+    "fuzzy":{
+      "title":{"value":"yyterstellar","fuzziness":2}
+    }
+  }
+}
