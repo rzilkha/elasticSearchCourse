@@ -7,6 +7,19 @@
       "properties": {
         "year": {
           "type": "date"
+        },
+        "title":{
+          "type":"text",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "index": true
+            },
+            "english": {
+              "type": "text",
+              "analyzer": "english"
+            }
+          }
         }
       }
     }
