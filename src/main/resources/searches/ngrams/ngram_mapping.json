@@ -1,0 +1,16 @@
+{
+
+  "movie": {
+    "properties": {
+      "title": {
+        "type": "text",
+        "analyzer":"auto_complete_analyzer",
+        "search_analyzer":"standard"
+      }
+    }
+  }
+
+}
+
+
+//with http://localhost:9200/movies/_mapping/movie
