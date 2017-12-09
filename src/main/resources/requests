@@ -1,3 +1,12 @@
 Put /movies - movie.json
 
 Get /movies/_mapping/movie
+
+Get /_bulk
+
+POST http://localhost:9200/movies/movie/10948487/_update
+
+also same for full update..
+POST http://localhost:9200/movies/movie/10948487/_update?version=1
+
+DELETE http://localhost:9200/movies/movie/58559
