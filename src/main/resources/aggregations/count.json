@@ -7,3 +7,6 @@
       }
   }
 }
+
+
+// after logstash, http://localhost:9200/newmovies/_search?size=0
