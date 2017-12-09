@@ -1,0 +1,9 @@
+{
+  "agg":{
+      "ratings":{
+        "terms": {
+          "field":"rating"
+        }
+      }
+  }
+}
